@@ -37,7 +37,7 @@ High quality audio is imperative to having your video meet quality standards. He
 - Test that your sound does not have echo. If it does, try a smaller room or more insulated space (closets work well)
 - Your average recording volume should be between -12dB and -10dB. Check your levels on OBS by looking at the audio mixer panel.
 - High quality mic's help, using something like a laptop's built in mic can pick up a lot of fan noise. 
-- You must normalize your audio (more information below)
+- If you need to normalize your audio, please do, [YouTube Audio Normalization](https://www.youtube.com/watch?v=OKSWPrT5upo)
 
 
 
