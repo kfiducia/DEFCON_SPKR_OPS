@@ -1,10 +1,12 @@
 # DEFCON OBS Quickstart
 
-## macOS Instructions
+## Windows Instructions
 
 1. Download & install OBS for your platform: https://obsproject.com/
-   1. Select the __Optimize for Recording__ option when asked
-   2. Open the application __Preferences/Settings__ to adjust some important settings:
+
+   1. Run the auto-configuration wizard
+   2. Select the __Optimize for Recording__ option when asked
+   3. Open the application __Preferences/Settings__ to adjust some important settings:
          1. Under the __Output__ tab, under __Recording__ select:
             - __Recording Quality__: *Indistingquishable Quality, Large File Size*
             - __Recording Format__: *mp4*
@@ -14,11 +16,11 @@
         3. Click __OK__ to exit and save the changes
 
 2. Download the template and images for the main track: __LINK TO TEMPLATES HERE__
-3. Create a folder to house the template images, something like `~/Downloads/DEFCON_OBS/`
-4. Open your text-editor of choice, if you don't have one, you can use the built-in `TextEdit.app`
+3. Create a folder to house the template images, something like `C:\Users\Username\Downloads\DEFCON_OBS`
+4. Open your text-editor of choice, if you don't have one, you can use the built-in `notepad`
 5. Unzip the templates zip file you downloaded to the directory you specified above.
-6. Using the Find/Replace feature of your text editor, open the *templates.json* file you just unzipped, find `%PATH_VALUE%` and replace with your desired path e.g `/Users/username/Downloads/DEFCON_OBS/` - this should fix all your file paths and ready you for importing the scenes.
-   - __NOTE:__ OBS does not seem to recognize the tilde character e.g. `~/Documents/`
+6. Using the Find/Replace feature of your text editor, open the *templates.json* file you just unzipped, find `%PATH_VALUE%` and replace with your desired path e.g `C:/Users/Username/Downloads/DEFCON_OBS` - this should fix all your file paths and ready you for importing the scenes.
+   - __NOTE:__ the .json assumes hte folder path uses '/', not '\' so convert your above folder path with find/replace
 7. Open OBS and select __Import__ from the __Scene Selection__ menu.
 8. Click the the dots in the collection path to specify the JSON file inside the directory you specified earlier.
 9.  Change the __Name__ if you'd like to something you will recognize like `DEFCON-SAFEMODE`
