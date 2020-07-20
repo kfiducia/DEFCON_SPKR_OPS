@@ -1,6 +1,6 @@
 # DEFCON OBS Quickstart
 
-## macOS Instructions
+## Windows Instructions
 
 1. Download & install OBS for your platform: https://obsproject.com/
 
