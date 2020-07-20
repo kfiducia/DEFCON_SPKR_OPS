@@ -8,17 +8,22 @@ Official installation packages are available only for Ubuntu 18.04, but unoffici
 
 ### Configuring Your Installed OBS Studio
 
-Once OBS is installed, and you can start OBS Studio, you will need to set several settings that will optimize your recording for our streaming needs.
+Linux installations will require some additional settings that other distributions normally configure in the installer.
 
-1. Select the __Optimize for Recording__ option when asked
-1. Open the application __Preferences/Settings__ to adjust some important settings:
-    1. Under the __Output__ tab, under __Recording__ select:
-        - __Recording Quality__: *Indistingquishable Quality, Large File Size*
-        - __Recording Format__: *mp4*
-        - __Recording Path__: `a path of your choice`
-    1. Go to the __Video__ tab on the left hand side
-        - Make sure both your __Base Canvas__ and __Output Resolution__ are set to `1920x1080`
+1. Open OBS Studio, and click the Settings button in the lower right.
+1. Output section -> Streaming:
+    1. __Video bitrate__: 2500 kbps
+    1. __Encoder__: If you have a hardware option here, you may want to choose it. Otherwise, leave Software.
+    1. __Audio Bitrate__: 128
+1. Output section -> Recording: 
+    1. __Recording Quality__: *Indistingquishable Quality, Large File Size*
+    1. __Recording Format__: *mp4*
+    1. __Recording Path__: `a path of your choice`
+1. Video section:
+    1. Make sure both your __Base Canvas__ and __Output Resolution__ are set to `1920x1080`
     1. Click __OK__ to exit and save the changes
+
+    
 
 1. Download the template and images for the main track: __LINK HERE__
 1. Create a folder to house the template images. This can be anywhere you like, so long as you know the full path to it.
