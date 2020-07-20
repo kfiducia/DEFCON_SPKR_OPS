@@ -1,6 +1,6 @@
 # DEFCON OBS Quickstart Status
 
-## macOS Instructions [Link](macos.md)
+## macOS Instructions [Link](macOS.md)
  - Usable
  
 ## Windows Instructions [Link](windows.md)
