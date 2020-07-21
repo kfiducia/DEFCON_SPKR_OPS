@@ -1,18 +1,17 @@
-=======
 # DEFCON OBS Quickstart
 
 ## Windows Instructions
 
 1. Download & install OBS for your platform: https://obsproject.com/
+
    1. Start OBS. Choose to run the auto-configuration wizard.
         1. Select __Optimize for Recording__, click next.
         1. As a base resolution, use 1920x1080.
    2. Open the application __Preferences/Settings__ to adjust some important settings:
         1. Under the __Output__ tab, under __Recording__ select:
             - __Recording Path__: `a path of your choice`
-            - __Recording Quality__: *Indistingquishable Quality, Large File Size*
+            - __Recording Quality__: *Indistinguishable Quality, Large File Size*
             - __Recording Format__: *mp4*
-        2. Under the __Video__ tab:
             - Make sure both your __Base Canvas__ and __Output Resolution__ are set to `1920x1080`
         3. Click __OK__ to exit and save the changes
 
