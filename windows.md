@@ -6,20 +6,20 @@
 
    1. Start OBS. Choose to run the auto-configuration wizard.
         1. Select __Optimize for Recording__, click next.
-        1. As a base resolution, use 1920x1080.
+        2. As a base resolution, use 1920x1080.
    2. Open the application __Preferences/Settings__ to adjust some important settings:
         1. Under the __Output__ tab, under __Recording__ select:
             - __Recording Path__: `a path of your choice`
             - __Recording Quality__: *Indistinguishable Quality, Large File Size*
             - __Recording Format__: *mp4*
             - Make sure both your __Base Canvas__ and __Output Resolution__ are set to `1920x1080`
-        3. Click __OK__ to exit and save the changes
+        2. Click __OK__ to exit and save the changes
 
 ### Get & Configure The Template
 
 OBS does not support relative paths, operating-system-specific path specifiers (e.g. ~ or %USERPROFILE%) or pretty much anything else - this makes OBS templates an interesting problem. This is the fastest and easiest way to fix it.
 
-1. Download the template and images for the main track: __LINK TO TEMPLATES HERE__
+1. Download the template and images for the main track: __ZIP File Available on Fileserver__
 1. Unzip the templates zip file you downloaded to someplace where it can reside long term. This can be anywhere you like, as long as you know its path.
 1. Open your text-editor of choice. Anything that does find and replace and understands UNIX line endings will do. When in doubt, Notepad++ is always a reasonable option.
 1. Load the template configuration file - `dc-safemode-main-talks.json` 
@@ -73,7 +73,7 @@ Regardless of which video source you choose, live or recorded, adding them will 
 
 5. Resize and recenter your video after making sure it is under the template, it should appear to have horizontal stripes through the video and the edges of the video should look "torn" (see example)
 
-### Let's Make A Test Reocrding
+### Let's Make A Test Recording
 
 Once you have your video sources configured the way you want, they appear clearly in the preview window, and the audio level meter responds to your voice, you can try a test recording.
 
