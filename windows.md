@@ -51,7 +51,15 @@ High quality audio is imperative to having your video meet quality standards. He
 - Test that your sound does not have echo. If it does, try a smaller room or more insulated space (closets work well)
 - Your average recording volume should be between -12dB and -10dB. Check your levels on OBS by looking at the audio mixer panel.
 - High quality mics help, using something like a laptop's built in mic can pick up a lot of fan noise. 
-- If you need to normalize your audio, please do, [YouTube Audio Normalization](https://www.youtube.com/watch?v=OKSWPrT5upo)
+- Use a foam covering or pop filter on your microphone if possible
+- If you need to normalize your audio, please do:
+   Normalization is an audio editing process that helps all of our videos stay on the same relative volume. Normalizing the audio ensures when someone streams your talk the audio will be at the same level as the other talks. There are many ways to normalize audio, here is one method using Audacity, which is a free, open source, cross-platform audio software.
+   1. Export the audio track from your video and open it with Audacity
+   2. Select “Effect” then “Normalize…”
+   3. Only have the second box selected and set the maximum amplitude to “-.1DB”
+   4. Export the edited audio and re-add it to OBS as an audio source or re-attach to your video
+      - Try to minimize the number of compression cycles the audio goes through or use the maximum quality available so the audio isn't degraded in this process.
+   
 
 ### Live Video Sources
 You will need to add a video source (or two) to each of the scenes you plan to use. Your first source will probably be yourself. Most presenters will probably be using a webcam or a phone, but there are many high resolution camera options available that work with OBS if you choose. Use something that shows you clearly. Lighting is more important than you think; you should be well-lit and use a background that contrasts your clothing so you appear clearly in the video.
