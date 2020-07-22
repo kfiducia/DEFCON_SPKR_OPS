@@ -29,10 +29,12 @@ OBS does not support relative paths, operating-system-specific path specifiers (
 9.  Click __Import__
 10. From the __Scene Selection__ menu, select the newly imported scenes.
 11. Ensure the images appear in the scenes you will be using.
-12.__Edit__ the overlay text to describe your specific talk in each scene you will use! 
+12. __Edit__ the overlay text to describe your specific talk in each scene you will use! 
     -  There are two text overlay items for different platforms, edit the one for your platform
         ![Platform Specific Text overlays](text-overlays.jpg)
     -  On each one of the Scenes you intend to use, click the eye icon next to the __Windows__ text item to hide it. (It probably won't appear anyway, but on some configurations, might appear as garbled text.)
+    - The format is:  __Speaker Name | Talk Title | Whatever Else You Fancy |__ 
+         - Note the pipes "|" in between.
 13.  We will need to add/edit the video sources next. 
 
 
