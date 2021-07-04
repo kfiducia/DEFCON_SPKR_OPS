@@ -31,7 +31,7 @@ Linux installations will require some additional settings that other distributio
 1. Using the Find/Replace feature of your text editor, find `%PATH_VALUE%` and replace with your desired path e.g `/home/jack/downloads/DEFCON-SAFEMODE` - this should fix all your file paths and ready you for importing the scenes.
    - __NOTE:__ OBS does not support any kind of relative pathing, or any path replacement variables (dots, %, etc.) You'll need to use a full, complete path.
 1. Unzip the templates zip file you downloaded to the directory you specified above.
-1. Install the Futura Font included in the template .zip
+1. Install the Futura Font included in the template .zip. This is done by double clicking ont he Font file and clicking Install.
 1. Open OBS and select __Import__ from the __Scene Selection__ menu.
 1. Click the the dots in the collection path to specify the JSON file inside the directory you specified earlier.
 1. Change the __Name__ if you'd like to something you will recognize like `DEFCON-SAFEMODE`

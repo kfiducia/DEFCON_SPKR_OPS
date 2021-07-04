@@ -4,7 +4,7 @@
 
 1. Download the template zip file from Basecamp to a known location (e.g. Downloads Folder); The zip file contains the template.overlay file, font files (should you need it), and template images
 2. Unzip the zip file you downloaded
-3. Install the Futura Fonts from the downloaded .zip
+3. Install the Futura Fonts from the downloaded .zip. This is done by double clicking on the Font file and clicking Install.
 4. Download & install Streamlabs OBS (SLOBS) for your platform: https://streamlabs.com/streamlabs-obs-live-streaming-software
    1. If this is the first time running SLOBS you will have some setup to do:
       1. Make sure to set permissions properly to give mic and camera access
