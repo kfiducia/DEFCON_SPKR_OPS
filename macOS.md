@@ -2,34 +2,40 @@
 
 ## macOS Instructions
 
-1. Download the template, font, and images for the main track to a known location (e.g. Downloads Folder): __LINK TO TEMPLATES HERE__
-2. Unzip the templates zip file you downloaded to the directory you selected in the first step, you should see a .overlay file among other things
-2. Download & install Streamlabs OBS (SLOBS) for your platform: https://streamlabs.com/streamlabs-obs-live-streaming-software
-   Make sure to set permissions properly to give mic and camera access
-   You can skip the streaming service integrations
-   "Start Fresh"
-   You can tune the webcam/mic if you'd like
-   Skip adding a theme (we will do this shortly)
-   Go to preferences
-
-   1. Select the __Optimize for Recording__ option when asked
-   2. Open the application __Preferences/Settings__ to adjust some important settings:
-         1. Under the __Output__ section, under __Recording__ select:
-            - __Recording Quality__: *Indistingquishable Quality, Large File Size*
-            - __Recording Format__: *mp4*
-            - __Recording Path__: `a path of your choice`
-        2. Select the __Video__ section from the left hand side of the preferences pane
+1. Download the template zip file from Basecamp to a known location (e.g. Downloads Folder); The zip file contains the template.overlay file, font file (should you need it), and template images
+2. Unzip the zip file you downloaded
+3. Download & install Streamlabs OBS (SLOBS) for your platform: https://streamlabs.com/streamlabs-obs-live-streaming-software
+   1. If this is the first time running SLOBS you will have some setup to do:
+      1. Make sure to set permissions properly to give mic and camera access
+      2. You can skip the streaming service integrations
+      3. "Start Fresh"
+      4. You can tune the webcam/mic if you'd like
+      5. Skip adding a theme (we will do this shortly)
+   2. Open the SLOBS application __Preferences/Settings__ to adjust some important settings: 
+      1. Select the __Output__ section; under __Recording__ ensure the following selections:
+         - __Recording Quality__: *Indistingquishable Quality, Large File Size*
+         - __Recording Format__: *mp4*
+         - __Recording Path__: `a path of your choice`
+      2. Select the __Video__ section from the left hand side of the preferences pane
             - Make sure both your __Base Canvas__ and __Output Resolution__ are set to `1920x1080`
-        3. Select the _Scene Collections_ preferences
-        4. Select _Import Overlay File_
-        5. Locate and select the _DC29-Slobs-Final.overlay_ file
-        6. Click __Done__ to exit and save the changes
+      3. Select the __Scene Collections__ preferences
+         1. Select __Import Overlay File__
+         2. Locate and select the __DC29-Slobs-Final.overlay__ file
+   3. Click __Done__ to exit and save the changes
+
+4.  Verify you have new _Scenes_ in the __Scenes__ pane in the bottom left, select the appropriate scene for the video you will be recording.
+5.  Ensure the images appear in the scenes you will be using.
+6.  __Edit__ the overlay text to describe your specific talk in each scene you will use:
+    ### Editing and Validating the Text & Font
+    - Verify that your system already has the Futura font installed, otherwise it can be found in the template zip file and should be installed before continuing
+    - Double click the __Speaker/Talk Info__ in the __Sources__ pane (or whichever text you need to edit)
+    - Check that the Font Family is set to __Futura__
+    - The Font Style should be set to __Bold__
+    - The Font Size should be set to __288__
+
+7.  We will need to add/edit the video sources next. 
 
 
-11. From the __Scene Selection__ menu, select the newly imported scenes.
-12. Ensure the images appear in the scenes you will be using.
-13. __Edit__ the overlay text to describe your specific talk in each scene you will use!
-14. We will need to add/edit the video sources next. 
 
 ### Live Video Sources
 You will need to add a video source (or two) to each of the scenes you plan to use. Your first video source will probably be of you speaking. Most presenters will probably be using a webcam or a phone, but there are many high resolution camera options available that work with OBS if you choose. Use something that shows you clearly. Lighting is more important than you think; you should be well-lit and use a background that contrasts your clothing so you appear clearly in the video.
@@ -46,26 +52,18 @@ Regardless of which video source you choose, live or recorded, adding them will 
     - You may need to lock the template images/text to avoid accidentally moving or resizing the template
     - Be sure that the video source is under the template image and that any video sources that overlap are properly layered (edge of webcam is not on top of slides)
 4. Check to ensure your video sources are listed at the bottom of the sources pane. This ensures they are "under" the template overlay and will inherit the visual effects intended
-    
-    ![DO THIS](do-this.png)
-    ![DON'T DO THIS](do-not-do-this.png)
-
-5. Resize and recenter your video after making sure it is under the template, it should appear to have rounded corners (see example)
 
 
-### Double Checking the Text
-Verify if your system already has the Futura font, otherwise it can be found in the template zip file and should be installed before continuing.
-Double click the _Speaker/Talk Info_ or whichever text you need to edit
-Check the Font Family is set to _Futura_
-Font Style should be set to _Bold_
-The Font Size should be set to 288
+5. Resize and recenter your video after making sure it is under the template, it should appear to have rounded corners
+
+
 
 ### Test Recording
 
 Once you have your video sources configured the way you want, they appear clearly in the preview window, and the audio level meter responds to your voice, you can try a test recording.
 
 1. Click the __Start Recording__ option. 
-    - You'll see a couple of visual cues, but in general, OBS does not have a lot of feedback during recording.
+    - You'll see a couple of visual cues, but in general, OBS/SLOBS does not have a lot of feedback during recording.
 2. Record some test content. 
 3. Click __Stop Recording.__
 
