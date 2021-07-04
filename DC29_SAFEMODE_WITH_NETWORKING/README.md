@@ -7,4 +7,5 @@
  - Usable
  
 ## Linux Instruction [Link](linux.md)
- - Usable with OBS.
+ - Usable with OBS
+
