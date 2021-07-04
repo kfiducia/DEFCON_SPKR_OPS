@@ -7,4 +7,5 @@
  - Usable
  
 ## Linux Instruction [Link](linux.md)
- - Minimal but workable.
+ - Usable with OBS
+
