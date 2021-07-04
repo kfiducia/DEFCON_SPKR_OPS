@@ -11,35 +11,35 @@ Official installation packages are available only for Ubuntu 18.04, but unoffici
 Linux installations will require some additional settings that other distributions normally configure in the installer.
 
 1. Open OBS Studio, and click the Settings button in the lower right.
-1. Output section -> Streaming:
+2. Output section -> Streaming:
     1. __Video bitrate__: 2500 kbps
-    1. __Encoder__: If you have a hardware option here, you may want to choose it. Otherwise, leave Software.
-    1. __Audio Bitrate__: 128
-1. Output section -> Recording: 
+    2. __Encoder__: If you have a hardware option here, you may want to choose it. Otherwise, leave Software.
+    3. __Audio Bitrate__: 128
+3. Output section -> Recording: 
     1. __Recording Quality__: *Indistingquishable Quality, Large File Size*
-    1. __Recording Format__: *mp4*
-    1. __Recording Path__: `a path of your choice`
-1. Video section:
+    2. __Recording Format__: *mp4*
+    3. __Recording Path__: `a path of your choice`
+4. Video section:
     1. Make sure both your __Base Canvas__ and __Output Resolution__ are set to `1920x1080`
-    1. Click __OK__ to exit and save the changes
+    2. Click __OK__ to exit and save the changes
 
     
 
-1. Download the template and images for the main track: __LINK TO TEMPLATES HERE__
-1. Create a folder to house the template images. This can be anywhere you like, so long as you know the full path to it.
-1. Open your text-editor of choice.
-2. Using the Find/Replace feature of your text editor, find `%PATH_VALUE%` and replace with your desired path e.g `/home/username/downloads/DEFCON29` - this should fix all your file paths and ready you for importing the scenes.
+5. Download the template and images for the main track: __LINK TO TEMPLATES HERE__
+6. Create a folder to house the template images. This can be anywhere you like, so long as you know the full path to it.
+7. Open your text-editor of choice.
+8. Using the Find/Replace feature of your text editor, find `%PATH_VALUE%` and replace with your desired path e.g `/home/username/downloads/DEFCON29` - this should fix all your file paths and ready you for importing the scenes.
    - __NOTE:__ OBS does not support any kind of relative pathing, or any path replacement variables (dots, %, etc.) You'll need to use a full, complete path.
-3. Unzip the templates zip file you downloaded to the directory you specified above.
-4. Install the Futura Font included in the template .zip
-5. Open OBS and select __Import__ from the __Scene Selection__ menu.
-6. Click the the dots in the collection path to specify the JSON file inside the directory you specified earlier.
-7. Change the __Name__ if you'd like to something you will recognize like `DEFCON29`
-8. Click __Import__
-9. From the __Scene Selection__ menu, select the newly imported scenes.
-10. Ensure the images appear in the scenes you will be using.
-11. __Edit__ the overlay text to describe your specific talk in each scene you will use!
-12. We will need to add/edit the video sources next. 
+9. Unzip the templates zip file you downloaded to the directory you specified above.
+10. Install the Futura Font included in the template .zip
+11. Open OBS and select __Import__ from the __Scene Selection__ menu.
+12. Click the the dots in the collection path to specify the JSON file inside the directory you specified earlier.
+13. Change the __Name__ if you'd like to something you will recognize like `DEFCON29`
+14. Click __Import__
+15. From the __Scene Selection__ menu, select the newly imported scenes.
+16. Ensure the images appear in the scenes you will be using.
+17. __Edit__ the overlay text to describe your specific talk in each scene you will use!
+18. We will need to add/edit the video sources next. 
 
 ### Audio Sources
 High quality audio is imperative to having your video meet quality standards. Here are some suggestions for the best audio:
