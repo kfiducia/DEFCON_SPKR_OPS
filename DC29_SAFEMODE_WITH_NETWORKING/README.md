@@ -4,7 +4,7 @@
  - Usable
  
 ## Windows Instructions [Link](windows.md)
- - Not Updated Yet
+ - Usable
  
 ## Linux Instruction [Link](linux.md)
- - Not Updated Yet
+ - Minimal but workable.
