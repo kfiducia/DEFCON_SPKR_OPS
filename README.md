@@ -7,4 +7,4 @@
  - Usable
  
 ## Linux Instruction [Link](linux.md)
- - No volunteers for Linux testing /documentation porting available
+ - A bit rough but should work

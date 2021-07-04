@@ -32,7 +32,7 @@
 14. We will need to add/edit the video sources next. 
 
 ### Live Video Sources
-You will need to add a video source (or two) to each of the scenes you plan to use, you can search the internet for good quality cameras for video, but you may also be able to use your phone or webcam as a video source for this purpose. Use something that shows you clearly. You should be well-lit and use a background that contrasts your clothing so you appear clearly in the video.
+You will need to add a video source (or two) to each of the scenes you plan to use. Your first video source will probably be of you speaking. Most presenters will probably be using a webcam or a phone, but there are many high resolution camera options available that work with OBS if you choose. Use something that shows you clearly. Lighting is more important than you think; you should be well-lit and use a background that contrasts your clothing so you appear clearly in the video.
 
 Your second video source will likely be a screen recording or the screen of your computer for slides and or demos which you will record live. 
 
@@ -40,6 +40,7 @@ Regardless of which video source you choose, live or recorded, adding them will 
 1. Select the scene you wish to use, from the bottom left pane (Scene Selection)
 2. Under the sources pane, click the __+__ sign to add a source.
    - For capturing the screen, you would select __Display Capture__
+   - For capturing a single window, you would select __Window Capture__ (this didn't always have expected results, testing is recommended)
    - For capturing a webcam, you would select __Video Capture Device__
 3. Resize each video source to the correct size to fit within the template 
     - You may need to lock the template images/text to avoid accidentally moving or resizing the template
@@ -59,6 +60,16 @@ Check the Font Family is set to _Futura_
 Font Style should be set to _Bold_
 The Font Size should be set to 288
 
+### Test Recording
+
+Once you have your video sources configured the way you want, they appear clearly in the preview window, and the audio level meter responds to your voice, you can try a test recording.
+
+1. Click the __Start Recording__ option. 
+    - You'll see a couple of visual cues, but in general, OBS does not have a lot of feedback during recording.
+2. Record some test content. 
+3. Click __Stop Recording.__
+
+OBS places the recordings in the location you specified during the setup wizard, so you'll have to browse to that location and watch the video you just made. By default, they are named with the time and date you started recording. You'll want to peruse your test video to see how the audio sounds and how the video quality looks - if it all looks OK, you are good to record your full presentation.
 
 ### Audio Sources
 High quality audio is imperative to having your video meet quality standards. Here are some suggestions for the best audio:
@@ -71,5 +82,5 @@ High quality audio is imperative to having your video meet quality standards. He
 - If you need to normalize your audio, please do: [YouTube Audio Normalization](https://www.youtube.com/watch?v=OKSWPrT5upo)
 
 ### Pre-Recorded Video Sources
-Fifty minutes is a long time if you make a mistake in your demo or have a technical difficulty and want to re-do it. During live DEFCONs mistakes are inevitable but for DEFCON SAFEMODE, people may want to fix these errors since they have the time. For this reason, you may think about doing a screen recording of the slides/demos which you can then narrate with audio and video afterwards, if you run into errors, you don't have to re-record quite so much. Or, if the audio isn't as clear as you'd hoped upon review, you don't have to re-record the slides, just the speaker video.
+You may consider doing a screen recording of the slides/demos which you can then narrate with audio and video afterwards, if you run into errors, you don't have to re-record quite so much. Or, if the audio isn't as clear as you'd hoped upon review, you don't have to re-record the slides, just the speaker video. In this instance rather than using a live video source, you can set the source to be a media file. 
     
