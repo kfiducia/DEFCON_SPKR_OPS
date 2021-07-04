@@ -23,9 +23,7 @@ Linux installations will require some additional settings that other distributio
     1. Make sure both your __Base Canvas__ and __Output Resolution__ are set to `1920x1080`
     2. Click __OK__ to exit and save the changes
 
-    
-
-5. Download the template and images for the main track: __LINK TO TEMPLATES HERE__
+5. Download the OBS/Linux specific template and image bundle from Basecamp.
 6. Create a folder to house the template images. This can be anywhere you like, so long as you know the full path to it.
 7. Open your text-editor of choice.
 8. Using the Find/Replace feature of your text editor, find `%PATH_VALUE%` and replace with your desired path e.g `/home/username/downloads/DEFCON29` - this should fix all your file paths and ready you for importing the scenes.
