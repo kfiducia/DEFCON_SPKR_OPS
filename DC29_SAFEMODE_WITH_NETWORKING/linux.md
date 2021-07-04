@@ -31,6 +31,7 @@ Linux installations will require some additional settings that other distributio
 1. Using the Find/Replace feature of your text editor, find `%PATH_VALUE%` and replace with your desired path e.g `/home/jack/downloads/DEFCON-SAFEMODE` - this should fix all your file paths and ready you for importing the scenes.
    - __NOTE:__ OBS does not support any kind of relative pathing, or any path replacement variables (dots, %, etc.) You'll need to use a full, complete path.
 1. Unzip the templates zip file you downloaded to the directory you specified above.
+1. Install the Futura Font included in the template .zip
 1. Open OBS and select __Import__ from the __Scene Selection__ menu.
 1. Click the the dots in the collection path to specify the JSON file inside the directory you specified earlier.
 1. Change the __Name__ if you'd like to something you will recognize like `DEFCON-SAFEMODE`
@@ -72,10 +73,6 @@ Regardless of which video source you choose, live or recorded, adding them will 
 3. Resize each video source to the correct size to fit within the template 
     - You may need to lock the template images/text to avoid accidentally moving or resizing the template
 4. Check to ensure your video sources are listed at the bottom of the sources pane. This ensures they are "under" the template overlay and will inherit the same effects as other presenters
-    
-    ![DO THIS](do-this.png)
-    ![DON'T DO THIS](do-not-do-this.png)
-
 5. Resize and recenter your video after making sure it is under the template, it should appear to have horizontal stripes through the video and the edges of the video should look "torn" (see example)
 
 
