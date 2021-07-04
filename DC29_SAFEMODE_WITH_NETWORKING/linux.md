@@ -28,13 +28,13 @@ Linux installations will require some additional settings that other distributio
 1. Download the template and images for the main track: __LINK TO TEMPLATES HERE__
 1. Create a folder to house the template images. This can be anywhere you like, so long as you know the full path to it.
 1. Open your text-editor of choice.
-1. Using the Find/Replace feature of your text editor, find `%PATH_VALUE%` and replace with your desired path e.g `/home/jack/downloads/DEFCON-SAFEMODE` - this should fix all your file paths and ready you for importing the scenes.
+1. Using the Find/Replace feature of your text editor, find `%PATH_VALUE%` and replace with your desired path e.g `/home/jack/downloads/DEFCON-29` - this should fix all your file paths and ready you for importing the scenes.
    - __NOTE:__ OBS does not support any kind of relative pathing, or any path replacement variables (dots, %, etc.) You'll need to use a full, complete path.
 1. Unzip the templates zip file you downloaded to the directory you specified above.
 1. Install the Futura Font included in the template .zip. This is done by double clicking on the Font file and clicking Install.
 1. Open OBS and select __Import__ from the __Scene Selection__ menu.
 1. Click the the dots in the collection path to specify the JSON file inside the directory you specified earlier.
-1. Change the __Name__ if you'd like to something you will recognize like `DEFCON-SAFEMODE`
+1. Change the __Name__ if you'd like to something you will recognize like `DEFCON-29`
 1. Click __Import__
 1. From the __Scene Selection__ menu, select the newly imported scenes.
 1. Ensure the images appear in the scenes you will be using.
@@ -77,6 +77,6 @@ Regardless of which video source you choose, live or recorded, adding them will 
 
 
 ### Pre-Recorded Video Sources
-Fifty minutes is a long time if you make a mistake in your demo or have a technical difficulty and want to re-do it. During live DEFCONs mistakes are inevitable but for DEFCON SAFEMODE, people may want to fix these errors since they have the time. For this reason, you may think about doing a screen recording of the slides/demos which you can then narrate with audio and video afterwards, if you run into errors, you don't have to re-record quite so much. Or, if the audio isn't as clear as you'd hoped upon review, you don't have to re-record the slides, just the speaker video.
+Fifty minutes is a long time if you make a mistake in your demo or have a technical difficulty and want to re-do it. During live DEFCONs mistakes are inevitable but for recorded DEFCON talks, people may want to fix these errors since they have the time. For this reason, you may think about doing a screen recording of the slides/demos which you can then narrate with audio and video afterwards, if you run into errors, you don't have to re-record quite so much. Or, if the audio isn't as clear as you'd hoped upon review, you don't have to re-record the slides, just the speaker video.
     
 
