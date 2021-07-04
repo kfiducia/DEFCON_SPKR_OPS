@@ -1,10 +1,4 @@
-# DEFCON OBS Quickstart Status
+# DEFCON SPEAKER OPS Instructions
 
-## macOS Instructions [Link](macOS.md)
- - Usable
- 
-## Windows Instructions [Link](windows.md)
- - Usable
- 
-## Linux Instruction [Link](linux.md)
- - A bit rough but should work
+## DEFCON 29 (2021 - Can't Stop the Signal)
+The DEFCON team has decided to use Streamlabs OBS this year, the updated instructions can be found in the DC29_SAFEMODE_WITH_NETWORKING directory
