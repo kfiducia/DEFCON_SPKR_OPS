@@ -2,6 +2,8 @@
 
 ## Linux Instructions
 
+NOTE: SLOBS is unsupported on Linux, so we made a workaround for Linux users using OBS. That said, SLOBS is a more straightforward process and we reccomend recording your talk using SLOBS on either a Windows or Mac OS.
+
 Linux installation instructions for OBS Studio are maintained by the OBS Project and can be found on the [OBS Wiki](https://obsproject.com/wiki/install-instructions). 
 
 Official installation packages are available only for Ubuntu 18.04, but unofficial installation instructions are available on the wiki for _many_ different distributions. Please complete the installation 
