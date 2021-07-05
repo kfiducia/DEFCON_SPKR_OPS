@@ -56,5 +56,3 @@ You will need to edit the overlay text to describe your specific talk in **each*
 - Check that the Font Family is set to __Futura__
 - The Font Style should be set to __Heavy__
 - The Font Size should be set to __288__
-
-![](attachments/TextSettings.png)
