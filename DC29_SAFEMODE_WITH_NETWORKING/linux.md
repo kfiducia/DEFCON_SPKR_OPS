@@ -81,3 +81,9 @@ Fifty minutes is a long time if you make a mistake in your demo or have a techni
 
     
 
+ ### Editing and Validating the Text & Font
+ - Verify that your system already has the Futura font installed, otherwise it can be found in the template zip file and should be installed before continuing
+ - Double click the __Speaker/Talk Info__ in the __Sources__ pane (or whichever text you need to edit)
+ - Check that the Font Family is set to __Futura__
+ - The Font Style should be set to __Heavy__
+ - The Font Size should be set to __288__
